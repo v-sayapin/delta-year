@@ -1,0 +1,16 @@
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+yarn-error.log
+
+lib
+
+.vscode
+.idea
+
+.DS_Store
