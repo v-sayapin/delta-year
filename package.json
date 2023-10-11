@@ -1,6 +1,6 @@
 {
 	"name": "delta-year",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "The function returns the difference of two dates in the form of a decimal year",
 	"license": "MIT",
 	"type": "module",
@@ -10,7 +10,8 @@
 	"scripts": {
 		"clean": "rm -rf lib",
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "yarn clean && yarn tsc"
+		"build": "yarn clean && yarn tsc",
+		"prepack": "yarn build"
 	},
 	"devDependencies": {
 		"typescript": "^5.2.2"
