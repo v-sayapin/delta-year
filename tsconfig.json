@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./",
+		"outDir": "lib/",
+		"target": "es2020",
+		"module": "es2020",
+		"declaration": true,
+
+		/* linting */
+		"strict": true,
+		"allowJs": false,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true
+	},
+	"include": ["src/"]
+}

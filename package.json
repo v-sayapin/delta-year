@@ -1,16 +1,20 @@
 {
-  "name": "delta-year",
-  "version": "1.0.0",
-  "description": "The function returns the difference of two dates in the form of a decimal year",
-  "license": "MIT",
-  "packageManager": "yarn@3.6.4",
-  "keywords": [
-    "delta",
-    "difference",
-    "decimal",
-    "float",
-    "date",
-    "time",
-    "year"
-  ]
+	"name": "delta-year",
+	"version": "1.0.0",
+	"description": "The function returns the difference of two dates in the form of a decimal year",
+	"license": "MIT",
+	"type": "module",
+	"packageManager": "yarn@3.6.4",
+	"devDependencies": {
+		"typescript": "^5.2.2"
+	},
+	"keywords": [
+		"delta",
+		"difference",
+		"decimal",
+		"float",
+		"date",
+		"time",
+		"year"
+	]
 }
