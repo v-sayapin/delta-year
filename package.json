@@ -4,7 +4,14 @@
 	"description": "The function returns the difference of two dates in the form of a decimal year",
 	"license": "MIT",
 	"type": "module",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
 	"packageManager": "yarn@3.6.4",
+	"scripts": {
+		"clean": "rm -rf lib",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "yarn clean && yarn tsc"
+	},
 	"devDependencies": {
 		"typescript": "^5.2.2"
 	},
