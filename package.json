@@ -1,8 +1,22 @@
 {
 	"name": "delta-year",
-	"version": "1.0.1",
 	"description": "The function returns the difference of two dates in the form of a decimal year",
+	"version": "1.0.2",
 	"license": "MIT",
+	"author": {
+		"name": "Vladislav Sayapin"
+	},
+	"homepage": "https://github.com/v-sayapin/delta-year",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/v-sayapin/delta-year.git"
+	},
+	"bugs": {
+		"url": "https://github.com/v-sayapin/delta-year/issues"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
 	"type": "module",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
